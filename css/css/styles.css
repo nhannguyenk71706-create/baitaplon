@@ -1,0 +1,320 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.header {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0 10px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    font-size: 0.9em;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #007bff; 
+    font-weight: bold;
+}
+
+.banner-section {
+    background: linear-gradient(90deg, #007bff, #00bfff); 
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.banner-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.banner-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #ff9800; 
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e68900;
+}
+
+.courses-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.courses-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card-header {
+    height: 120px; 
+    margin-bottom: 15px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+
+.english-bg { background-image: url('phan-mem-hoc-tieng-anh-tren-may-tinh-1.jpg'); }
+.japanese-bg { background-image: url('hoc-tieng-nhat-can-ban-lo-trinh-cho-nguoi-moi-bat-dau-cung-icc.jpeg'); }
+.ielts-bg { background-image: url('ielts-la-gi-1.jpeg'); }
+
+.course-card h4 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.course-card p {
+    font-size: 0.9em;
+    color: #666;
+    padding: 0 15px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.course-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+}
+
+.course-card h4 {
+    color: #007bff; 
+    font-size: 1.3em;
+    margin-top: 15px;
+}
+
+.course-card p {
+    font-size: 0.95em;
+    color: #555;
+    padding: 0 15px;
+    min-height: 50px;
+}
+
+/* CSS cho nút CTA nhỏ trong card */
+.btn-card {
+    display: inline-block;
+    color: #ff9800; 
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid #ff9800;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    transition: all 0.3s;
+}
+
+.course-card:hover .btn-card {
+    background-color: #ff9800;
+    color: white;
+}
+/* STYLES CHO TRANG ĐĂNG KÝ */
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+}
+
+.registration-form {
+    display: grid;
+    gap: 15px; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff9800; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #e68900;
+    transform: translateY(-2px); 
+}
+/* STYLES CHO TRANG LIÊN HỆ */
+
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+
+.contact-info {
+    flex: 1;
+    padding: 40px;
+    background-color: #f0f6ff;
+}
+
+.info-group h4 {
+    color: #ff9800; 
+    margin: 15px 0 5px 0;
+    font-size: 1.1em;
+}
+
+.info-group p {
+    margin: 0 0 10px 0;
+    color: #555;
+}
+
+
+/* Cột Form */
+.contact-form-area {
+    flex: 1;
+    padding: 40px;
+}
+
+.message-form input,
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.message-form textarea {
+    resize: vertical;
+}
+
+.submit-contact-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff9800; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-contact-btn:hover {
+    background-color: #e68900;
+}

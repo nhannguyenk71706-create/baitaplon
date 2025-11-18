@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="sửa_lại_dòng_chữ_Tru-removebg-preview.png" alt="Logo Academy" style="height: 30px;">
+        </div>
+        <h1>Trung tâm Ngoại ngữ Academy</h1>
+        <nav class="navbar">
+            <a href="index.html">Trang Chủ</a>
+            <a href="gioi-thieu.html">Giới Thiệu</a>
+            <a href="khoa-hoc.html">Khóa Học</a>
+            <a href="dang-ky.html" class="active">Đăng Ký</a>
+            <a href="lien-he.html">Liên Hệ</a>
+        </nav>
+    </header>
+
+   <section style="padding: 50px 20px; text-align: center; min-height: 400px; background-color: #f8f8f8;">
+    <div class="form-wrapper">
+        <h2 style="color:#007bff; margin-bottom: 5px;"> Bắt Đầu Hành Trình Ngôn Ngữ Của Bạn!</h2>
+        <p style="color: #666; margin-bottom: 30px;">Vui lòng điền thông tin để chúng tôi có thể tư vấn khóa học phù hợp nhất với mục tiêu của bạn.</p>
+
+        <form action="#" method="POST" class="registration-form">
+            <div class="form-group">
+                <label for="name">Họ và Tên (*)</label>
+                <input type="text" id="name" name="name" required placeholder="Ví dụ: Nguyễn Văn A">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Số Điện Thoại (*)</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Ví dụ: 090 123 4567">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ví dụ: name@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="course">Khóa học Quan tâm (*)</label>
+                <select id="course" name="course" required>
+                    <option value="">-- Chọn Khóa học --</option>
+                    <option value="english">Tiếng Anh Giao Tiếp</option>
+                    <option value="japanese">Tiếng Nhật Sơ Cấp</option>
+                    <option value="ielts">IELTS Cấp Tốc</option>
+                    <option value="other">Khác</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="submit-btn">Gửi Đăng Ký & Nhận Tư Vấn Miễn Phí</button>
+        </form>
+        
+        <p style="font-size: 0.8em; color: #999; margin-top: 20px;">*Chúng tôi cam kết bảo mật thông tin cá nhân của bạn.</p>
+
+    </div>
+</section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Trung tâm Ngoại ngữ Academy | Hotline: 0979 825 511</p>
+    </footer>
+</body>
+</html>
